@@ -1,0 +1,22 @@
+.sidebar
+{
+	top: 0;
+	bottom: 0;
+	left: 0;
+	position: fixed;
+	z-index: 1000;
+	display: block;
+	padding: 20px;
+	background-color: #f5f5f5;
+}
+
+.sidebar li a
+{
+	color: #000;
+}
+
+.sidebar li.active a
+{
+	color: #FFF !important;
+	background-color: #428bca;
+}

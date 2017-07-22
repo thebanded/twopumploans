@@ -1,0 +1,17 @@
+.mt-45
+{
+	margin-top: 45px !important;
+}
+
+.flat-input
+{
+	padding: 12px 6px;
+	width: 100% !important;
+	background-color: #F2F2F2 !important;
+	border: 0 !important;
+}
+
+.input-group-addon
+{
+	border: 0 !important;
+}
