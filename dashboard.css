@@ -1,9 +1,23 @@
+.material-icons {
+  font-family: 'Material Icons';
+  font-weight: normal;
+  font-style: normal;
+  font-size: 100px;  /* Preferred icon size */
+  display: inline-block;
+  line-height: 1;
+  text-transform: none;
+  letter-spacing: normal;
+  word-wrap: normal;
+  white-space: nowrap;
+  direction: ltr;
+}
+
 .sidebar
 {
 	top: 0;
 	bottom: 0;
 	left: 0;
-	position: fixed;
+	height: 100vh;
 	z-index: 1000;
 	display: block;
 	padding: 20px;
@@ -12,11 +26,20 @@
 
 .sidebar li a
 {
-	color: #000;
+	color: #000 !important;
 }
 
 .sidebar li.active a
 {
 	color: #FFF !important;
 	background-color: #428bca;
+}
+
+#dash-center {
+    padding-top: 2%;
+}
+
+#viewLoans
+{
+	margin-top: 20px;
 }
